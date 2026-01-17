@@ -1,0 +1,11 @@
+{:deps {io.github.biffweb/config      {:git/tag "v1.0" :git/sha "cc7ba13"}
+        io.github.biffweb/cljrun      {:git/tag "v1.0" :git/sha "f10b128"}
+        babashka/fs                   {:mvn/version "0.5.20"}
+        babashka/process              {:mvn/version "0.5.21"}
+        cider/cider-nrepl             {:mvn/version "0.28.3"}
+        com.nextjournal/beholder      {:mvn/version "1.0.2"}
+        hato/hato                     {:mvn/version "0.9.0"}
+        io.github.clojure/tools.build {:git/tag "v0.9.6" :git/sha "8e78bcc"}
+        nrepl/nrepl                   {:mvn/version "1.0.0"}
+        refactor-nrepl/refactor-nrepl {:mvn/version "3.6.0"}}
+ :paths ["src"]}
